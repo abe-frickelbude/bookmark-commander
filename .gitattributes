@@ -1,0 +1,20 @@
+
+# always keep LFs   
+* text eol=lf
+
+*.js text
+*.ts text
+*.vue text
+*.tsx text
+*.json text
+*.txt text
+*.md text
+
+# Declare files that will always have CRLF line endings on checkout.
+#*.sln text eol=crlf
+
+# binaries
+*.png binary
+*.jpg binary
+*.gif binary
+*.ttf binary
